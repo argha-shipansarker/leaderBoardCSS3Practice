@@ -1,0 +1,40 @@
+body{
+    background-color: #E5E5E5;
+}
+
+/* top players style */
+.top-players-and-blog{
+    /* height: 679px; */
+    width: 870px;
+    /* margin: 36px auto 21px; */
+    background-color: white;
+    border-radius: 5px;
+}
+p, h2{
+    margin: 0;
+    padding: 0;
+}
+.player-heading{
+    font-family: 'Poppins', sans-serif;
+    color: rgba(86, 46, 255, 1);
+    font-weight: 500;
+    /* margin: 330px 0 40px 33px; */
+    /* margin-top: 33px; */
+    /* padding-top: 33px; */
+    border: 1px solid red;
+
+}
+
+.top-players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.player-photo{
+    width: 56px;
+    height: 56px;
+    margin-right: 16px;
+}
+.player{
+    display: flex;
+    margin-bottom: 29px;
+}
